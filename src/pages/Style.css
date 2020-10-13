@@ -1,0 +1,14 @@
+#head{
+    height: 500px;
+      /*background-image: url('../assets/img/misterious_car.jpg');
+      background-repeat: no-repeat;
+      background-size: 100%;
+      background-attachment: fixed;*/
+   background: #FF416C; 
+   background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);  
+   background: linear-gradient(to right, #FF4B2B, #FF416C);
+  }
+  #about{
+
+	color: white;
+}
