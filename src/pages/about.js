@@ -5,13 +5,14 @@ import Footer from '../components/footer'
 import Section1 from '../components/section1'
 import Section2 from '../components/section2'
 import Section3 from '../components/section3'
+import Section5 from '../components/section5'
 
 
 import '../pages/Style.css'
 
 const about = () => {
     const about = 'About us'
-    const services = 'Our Services: What We Do & How We Do It'
+   
   
     const columns = [
         {
@@ -44,8 +45,9 @@ console.log(columns.head);
             <Header  about={about} /> 
         </div>
          <Section1/>
-         <Section2  columns={columns} prueba={services} />
+         <Section2  columns={columns} />
          <Section3/>
+         <Section5/>
         <Footer/>
         </div>
     );
