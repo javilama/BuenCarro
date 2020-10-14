@@ -3,7 +3,7 @@ import React from 'react';
 const header = (props) => {
 
 
-const services = 'Our Services: What We Do & How We Do It'
+
 
     return (
         <div>
