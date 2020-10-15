@@ -1,7 +1,5 @@
 import React from 'react';
-// import Img from '../assets/img/car_icon.png'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCar, faComment, faMugHot, faTrophy } from '@fortawesome/free-solid-svg-icons'
+
 
 const section2 = (props) => {
 

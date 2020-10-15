@@ -12,7 +12,7 @@ const navbar = () => {
               </Link>
            </div>
          <div  id="navbarItems"  className="container-fluid justify-content-around" >        
-              <Link className="navbar-brand font-weight-light" to="/home">
+              <Link className="navbar-brand font-weight-light" to="/">
                 Home
               </Link>
               <Link  className="navbar-brand font-weight-light" to="/services">
