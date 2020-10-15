@@ -1,28 +1,29 @@
 import React from 'react';
+import {Link} from 'react-router-dom'
+
 
 const navbar = () => {
     return (
       <div>
-           <div class="navbar navbar-dark navbar-expand-md">
-        <div class="container-fluid justify-content-start mx-5 px-5">
-            <a href="#" class="navbar-brand ">
-             <strong>BuenCarro</strong>
-            </a>
-        </div>
-        <div  id="navbarItems"  class="container-fluid justify-content-around" >        
-            <a  href="#" class="navbar-brand font-weight-light">
-              Home
-            </a>
-            <a href="#" class="navbar-brand font-weight-light">
-              Services
-            </a>
-            <a href="#" class="navbar-brand font-weight-light">
-              About us
-            </a>
+           <div className="navbar navbar-dark  navbar-expand-md" id="Navbar">
+             <div className="container-fluid justify-content-start mx-5 px-5">
+              <Link className="navbar-brand " to="/about" >
+              <strong>BuenCarro</strong>
+              </Link>
+           </div>
+         <div  id="navbarItems"  className="container-fluid justify-content-around" >        
+              <Link className="navbar-brand font-weight-light" to="/home">
+                Home
+              </Link>
+              <Link  className="navbar-brand font-weight-light" to="/services">
+                Services
+              </Link>
+              <Link className="navbar-brand font-weight-light" to="/about">
+                About us
+              </Link>
         </div>
     </div>
-
-      </div>
+  </div>
 
     );
 }

@@ -15,7 +15,7 @@ const section4 = (props) => {
               <img
                 src={Icon1}
                 alt="imagen1"
-                className=" img-fluid  p-4 rounded-circle border "
+                className=" img-fluid  p-4 rounded-circle"
               />
             </div>
             <div className="col-12 col-md-9 col-lg-9 col-xl-9 p-4 d-flex align-items-center ">
@@ -50,7 +50,7 @@ const section4 = (props) => {
               <img
                 src={Icon2}
                 alt="imagen1"
-                className=" img-fluid  p-4 rounded-circle border "
+                className=" img-fluid  p-4 rounded-circle"
               />
             </div>
           </div>
@@ -63,7 +63,7 @@ const section4 = (props) => {
               <img
                 src={Icon3}
                 alt="imagen1"
-                className=" img-fluid  p-4 rounded-circle border "
+                className=" img-fluid  p-4 rounded-circle"
               />
             </div>
             <div className="col-12 col-md-9 col-lg-9 col-xl-9 p-4 d-flex align-items-center ">
@@ -98,7 +98,7 @@ const section4 = (props) => {
               <img
                 src={Icon4}
                 alt="imagen1"
-                className=" img-fluid  p-4 rounded-circle border "
+                className=" img-fluid  p-4 rounded-circle"
               />
             </div>
           </div>

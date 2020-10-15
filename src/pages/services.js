@@ -1,5 +1,4 @@
 import React from 'react';
-import Navbar from '../components/navbar'
 import Header from '../components/header'
 import Footer from '../components/footer'
 import Setion4 from '../components/section4'
@@ -10,11 +9,10 @@ const services = () => {
     return (
         <div>
            <div className="container-fluid pt-3" id="head">
-            <Navbar/>
             <Header  services={services} serv={serv} /> 
-        </div> 
+           </div> 
          <Setion4 />
-        <Footer/>
+         <Footer/>
         </div>
     );
 }

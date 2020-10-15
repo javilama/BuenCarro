@@ -1,5 +1,4 @@
 import React from 'react';
-import Navbar from '../components/navbar'
 import Header from '../components/header'
 import Footer from '../components/footer'
 import Section1 from '../components/section1'
@@ -41,14 +40,13 @@ console.log(columns.head);
     return (
         <div>
         <div className="container-fluid pt-3" id="head">
-            <Navbar/>
             <Header  about={about} /> 
         </div>
-         <Section1/>
-         <Section2  columns={columns} />
-         <Section3/>
-         <Section5/>
-        <Footer/>
+            <Section1/>
+            <Section2  columns={columns} />
+            <Section3/>
+            <Section5/>
+            <Footer/>
         </div>
     );
 }

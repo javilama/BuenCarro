@@ -1,4 +1,5 @@
 import React from 'react';
+import Navbar from './navbar'
 
 const header = (props) => {
 
@@ -7,12 +8,14 @@ const header = (props) => {
 
     return (
         <div>
+            <Navbar/>
             <div className="row mx-5 px-5 pt-5 ">
         <div className="col col-12 col-lg-6" id="about">
             <div className="container  pt-5 mx-0">
                 <h6>{props.serv}</h6>
                <h1>{props.about}</h1>
                <h1>{props.services}</h1>
+               <h1>{props.wellcome} </h1>
             </div>
                <div className="container pt-5">
 
