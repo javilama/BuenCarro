@@ -19,7 +19,7 @@ const section3 = () => {
 							</div>
 						</div>
 					</div>
-    		<div class="col col-12 col-md-3">	<div className="container">
+    		<div className="col col-12 col-md-3">	<div className="container">
     			<h6>DEALER REVIEWS</h6>
     			 </div>
     			   <div className="row  ">
@@ -29,7 +29,8 @@ const section3 = () => {
     				</div>
     			   </div>
             </div>
-    		<div className="col col-12 col-md-3">	<div class="container">
+    		<div className="col col-12 col-md-3">	
+			<div className="container">
     			<h6>HAPPY CUSTOMER</h6>
     			</div>
     			   <div className="row  ">	
@@ -39,7 +40,8 @@ const section3 = () => {
 					</div>
     			   </div>
                 </div>
-    		<div className="col col-12 col-md-3">	<div class="container">
+    		<div className="col col-12 col-md-3">	
+			<div className="container">
     			<h6>AWARDS</h6>
     			</div>
     			   <div className="row  ">	

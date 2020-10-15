@@ -10,7 +10,7 @@ const section5 = () => {
                       <h4>OUR TESTIMONIAL</h4>
                     </div>
                   <div  className="row py-5 mx-5 ">
-                    <div id="Testimonial" class="col col-12 col-md-4 col-lg-4 col-xl-4 ">
+                    <div id="Testimonial" className="col col-12 col-md-4 col-lg-4 col-xl-4 ">
                       <div className="container d-flex justify-content-end">
                         <img src={Bill}alt=""/>
                       </div>

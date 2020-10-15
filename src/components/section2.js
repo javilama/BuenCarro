@@ -14,7 +14,7 @@ const section2 = (props) => {
         { columns.map((app)=>{
          let {head,text,img}= app
          return(   
-        <div className="col-12 col-md-3 text-center">
+        <div key={head}  className="col-12 col-md-3 text-center">
           <div className="container">
             <div className="row justify-content-center ">
               <div className="col-12 ">
