@@ -6,20 +6,28 @@ import Home from './pages/home'
 
 // .::ROUTES::.
 
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import { BrowserRouter as Router, Route,Switch} from 'react-router-dom'
 
 
 
-function App() {
-  return (
-    <Router>
-      <Switch>
-        <Route path="/" exact component={Home}/>
-        <Route path="/about"  component={About}/>
-        <Route path="/services"  component={Services}/>
-      </Switch>
-   </Router>
-  );
-}
+const App = () => (
+
+  <Router>
+       <Switch>
+          <Route exact path="/BuenCarro">
+            <Home />
+          </Route>
+          <Route exact path="/services">
+            <Services/>
+          </Route>
+          <Route exact path="/about">
+            <About/>
+          </Route>
+          <Route exact path="/">
+            <Home/>
+          </Route>
+       </Switch>
+  </Router>
+)
 
 export default App;
