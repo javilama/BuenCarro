@@ -9,7 +9,7 @@ const section2 = (props) => {
 
     return (
        
-    <div  id="section1"  className="container pt-5 my-4">
+    <div  className="container pt-5 my-4">
       <div className="row  mt-4 ">
         { columns.map((app)=>{
          let {head,text,img}= app

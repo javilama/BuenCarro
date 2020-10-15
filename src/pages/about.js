@@ -10,7 +10,7 @@ import Section5 from '../components/section5'
 import '../pages/Style.css'
 
 const about = () => {
-    const about = 'About us'
+    const about = 'About us';
    
   
     const columns = [
@@ -35,8 +35,6 @@ const about = () => {
         img:'http://drive.google.com/uc?export=view&id=1TNKVQ_sAnIWoa34CRF7yiWs9tzs--YI3'
          }
 ]
-console.log(columns.head);
-
     return (
         <div>
         <div className="container-fluid pt-3" id="head">

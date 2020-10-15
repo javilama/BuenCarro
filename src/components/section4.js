@@ -20,7 +20,7 @@ const section4 = (props) => {
             </div>
             <div className="col-12 col-md-9 col-lg-9 col-xl-9 p-4 d-flex align-items-center ">
               <article className="container border-left " id="section4">
-                <h5 className="font-weight-bold">SEO, Analitics & Marketing</h5>
+                <h5 className="font-weight-bold">SEO, Analitics &#38;  Marketing</h5>
                 <p className="text-left font-weight-light mr-5">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                   Eligendi, et quas explicabo, praesentium earum a voluptas
@@ -37,7 +37,7 @@ const section4 = (props) => {
           <div className="row bg-transparent">
             <div className="col-12 col-md-8 col-lg-8 col-xl-8 p-4 d-flex align-items-center">
               <article className="container border-right text-right" id="section4">
-                <h5 className="font-weight-bold">Digital Branding & Marketing</h5>
+                <h5 className="font-weight-bold">Digital Branding &#38; Marketing</h5>
                 <p className="text-right font-weight-light ml-5">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                   Eligendi, et quas explicabo, praesentium earum a voluptas
@@ -68,7 +68,7 @@ const section4 = (props) => {
             </div>
             <div className="col-12 col-md-9 col-lg-9 col-xl-9 p-4 d-flex align-items-center ">
               <article className="container border-left " id="section4">
-                <h5 className="font-weight-bold">Creative Thinking & Design</h5>
+                <h5 className="font-weight-bold">Creative Thinking &#38; Design</h5>
                 <p className="text-left font-weight-light mr-5">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                   Eligendi, et quas explicabo, praesentium earum a voluptas

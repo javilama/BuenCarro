@@ -4,7 +4,6 @@ import Bill from '../assets/img/Bill.jpg'
 const section5 = () => {
     return (
         <div>
-           <div className="container">
               <section className="container">
                   <div className="container d-flex  justify-content-center">
                       <h4>OUR TESTIMONIAL</h4>
@@ -28,7 +27,6 @@ const section5 = () => {
                     </div>
                   </div>
               </section>
-        </div>
     </div>
     );
 }
